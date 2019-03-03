@@ -72,7 +72,7 @@ defmodule Issues.CLI do
   end
 
   def pretty_print(data) do
-    "[#{data["created_at"]}] - [#{data["title"]}]"
+    "[#{data["created_at"]}] - [#{data["title"]}]\n"
   end
 
   def pretty_print(_), do: ""
